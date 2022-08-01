@@ -8,18 +8,18 @@ class Person {
     String name = 'Murod';
     int age = 17;
 
-    Person({String name = '', int age = 14}){
+    Person(String name,int age){
         this.name = name;
         this.age = age;
     }
 
     String getInfo(){
-        return 'My name is $name, I am $age years old';
+        return '';
     }
 
 }
 
 void main() {
-    Person x = Person(age: 34,name: 'Sardor');
+    Person x = Person(23,'Sardor');
     print(x.getInfo());
 }

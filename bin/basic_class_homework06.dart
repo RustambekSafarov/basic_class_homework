@@ -13,13 +13,12 @@ class Person {
         this.age = age;
     }
 
-    String getInfo(){
-        return '';
-    }
+    // String getInfo(){
+    //     return '';
+    // }
 
 }
 
 void main() {
-    Person x = Person(23,'Sardor');
-    print(x.getInfo());
+    
 }

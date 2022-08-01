@@ -8,10 +8,10 @@ class Person {
     String name = 'Murod';
     int age = 17;
 
-    Person(String name,int age){
-        this.name = name;
-        this.age = age;
-    }
+    // Person(String name,int age){
+    //     this.name = name;
+    //     this.age = age;
+    // }
 
     // String getInfo(){
     //     return '';
@@ -20,6 +20,6 @@ class Person {
 }
 
 void main() {
-     Person person = Person('Ali',25);
+    //  Person person = Person('Ali',25);
     
 }

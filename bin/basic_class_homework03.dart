@@ -10,7 +10,7 @@ class Person {
     String name = 'Murod';
     int age = 17;
 
-    Person({String name = '', }){
+    Person(String name){
         this.name = name;
     }
 
@@ -21,6 +21,6 @@ class Person {
 }
 
 void main() {
-    Person x = Person(name: 'Ali');
+    Person x = Person('ali');
     print(x.getInfo());
 }
